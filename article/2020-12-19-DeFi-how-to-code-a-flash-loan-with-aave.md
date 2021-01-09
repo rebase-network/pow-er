@@ -1,3 +1,9 @@
+---
+category: DeFi
+title: How To Code a flash load with AAVE
+date: "2020-12-19 00:00:00"
+---
+
 # 开发者如何玩转 Aave 闪电贷
 
 原文链接：https://finematics.com/how-to-code-a-flash-loan-with-aave/
