@@ -1,3 +1,9 @@
+---
+category: DeFi
+title: Flashloans Comparison
+date: "2020-06-13 00:00:00"
+---
+
 ## 对比 Aave、dYdX 和 Uniswap 的闪电贷
 
 作者：Julien Klepatch，他的培训课程 https://eattheblocks.com/flash
