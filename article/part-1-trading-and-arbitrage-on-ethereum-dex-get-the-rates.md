@@ -29,6 +29,7 @@ DEX 聚合器是一个平台，它将搜索一组 DEX，以寻找在给定时间
 
 1inch 交易所是由[Anton Bukov](https://github.com/k06a)和 [Sergej Kunz](https://github.com/deacix)开发的去中心化交易所聚合器，通过一次交易将订单在多个 DEX 之间拆分，给用户提供最好的汇率。
 1inch 的智能合约是开源的，可以[在 Github 上查看](https://github.com/1inch-exchange/1inchProtocol)。我们将看到如何使用智能合约发现交易机会。 你可以在 https://1inch.exchange/ 访问 1inch 用户界面。
+
 [img]
 
 在 1inch 执行交易，过程其实很简单：
@@ -37,7 +38,7 @@ DEX 聚合器是一个平台，它将搜索一组 DEX，以寻找在给定时间
 - 授权（Approve）交易所使用你的 token
 - 使用第一步的获取的 token 数量进行交易
 
-我们首先仔细了解一下 1inch 的智能合约，让我们感兴趣的是这两个功能：
+我们首先仔细了解一下 1inch 的智能合约，让我们感兴趣的是这两个方法：
 
 - `getExpectedReturn()`
 - `swap()`
@@ -92,7 +93,7 @@ returns(
 
 `getExpectedReturn`函数的返回值非常重要，因为接下来需要利用它来执行实际的链上兑换操作。
 
-## 执行多 DEX 兑换交易
+## swap - 执行多DEX兑换交易
 
 要执行链上 token 兑换交易，就需要使用 1inch 合约提供的另一个函数 swap。调用 swap 时，需要传入我们之前从`getExpectedReturn`返回的数据，并且承担必要的 gas 开销。如果要卖出的是 ERC20token，那么还需要先授权 1inch 合约 可以操作你持有的待卖出 token。`swap`函数的定义如下：
 
@@ -117,11 +118,7 @@ swap 函数接收 6 个参数：
 - parts：执行估算时的拆分数量，默认值是 100
 - disableFlags：标记位，例如可设置禁用某个特定的 DEX
 
-## 进行第一笔兑换交易
-
-We’ll now try to use what we saw to get the rate for our first automated trade using JavaScript and a smart contract. If you did not [read our guide about setting up web3js you should read it](https://ethereumdev.io/setup-web3js-to-use-the-ethereum-blockchain-in-javascript/).
-
-To make it easy for you, we published the [source code on Github](https://github.com/jdourlens/ethereumdevio-dex-tutorial) so you can easily get the code on your side:
+## 实战 - 估算最佳兑换方案
 
 分析完了 1inch 的关键方法，我们将进行第一笔兑换交易，代码已在 github 开源，尝试下面的操作来执行操作：
 
@@ -135,7 +132,7 @@ node index.js
 
 `index.js` 代码如下：
 
-```
+```js
 var Web3 = require('web3');
 const BigNumber = require('bignumber.js');
 
@@ -152,45 +149,36 @@ const amountToExchange = 1
 
 const web3 = new Web3('http://127.0.0.1:8545');
 
-const onesplitContract = new web3.eth.Contract(oneSplitABI, onesplitAddress);
+const onesplitContract = new web3.eth.Contract(oneSplitABI, onesplitAddress); // （1）
 
-const oneSplitDexes = [
-    "Uniswap",
-    "Kyber",
-    "Bancor",
-    "Oasis",
-    "CurveCompound",
-    "CurveUsdt",
-    "CurveY",
-    "Binance",
-    "Synthetix",
-    "UniswapCompound",
-    "UniswapChai",
-    "UniswapAave"
+const oneSplitDexes = ["Uniswap", "Kyber", "Bancor", // （2）
+  "Oasis", "CurveCompound", "CurveUsdt", "CurveY", "Binance", "Synthetix", "UniswapCompound", "UniswapChai", "UniswapAave"
 ]
 
-
-onesplitContract.methods.getExpectedReturn(fromToken, toToken, new BigNumber(amountToExchange).shiftedBy(fromTokenDecimals).toString(), 100, 0).call({ from: '0x9759A6Ac90977b93B58547b4A71c78317f391A28' }, function (error, result) {
-    if (error) {
-        console.log(error)
-        return;
-    }
-    console.log("Trade From: " + fromToken)
-    console.log("Trade To: " + toToken);
-    console.log("Trade Amount: " + amountToExchange);
-    console.log(new BigNumber(result.returnAmount).shiftedBy(-fromTokenDecimals).toString());
-    console.log("Using Dexes:");
-    for (let index = 0; index < result.distribution.length; index++) {
-        console.log(oneSplitDexes[index] + ": " + result.distribution[index] + "%");
-    }
+onesplitContract.methods.getExpectedReturn(fromToken, toToken, // （3）
+  new BigNumber(amountToExchange).shiftedBy(fromTokenDecimals).toString(), 100, 0).call({
+  from: '0x9759A6Ac90977b93B58547b4A71c78317f391A28'
+}, function(error, result) {
+  if (error) {
+    console.log(error)
+    return;
+  }
+  console.log("Trade From: " + fromToken)
+  console.log("Trade To: " + toToken);
+  console.log("Trade Amount: " + amountToExchange);
+  console.log(new BigNumber(result.returnAmount).shiftedBy(-fromTokenDecimals).toString());
+  console.log("Using Dexes:");
+  for (let index = 0; index < result.distribution.length; index++) {
+    console.log(oneSplitDexes[index] + ": " + result.distribution[index] + "%");
+  }
 });
 ```
 
-第 4 行：加载 ABI 以便实例化 web3.js 和 1inch 合约实例
+（1）：加载 ABI 以便实例化 1inch 合约实例
 
-第 19 行：该数组指定要使用的 DEX
+（2）：该数组指定要使用的 DEX
 
-第 35 行：调用`getExpectedReturn`函数获取兑换方案
+（3）：调用`getExpectedReturn`函数获取兑换方案
 
 代码执行后返回结果类似下面这样：
 
@@ -198,6 +186,8 @@ onesplitContract.methods.getExpectedReturn(fromToken, toToken, new BigNumber(amo
 
 此时卖出 1 个 eth，1inch 可以买到 148.47DAI，而 Coinbase 是 148.12。1inch 给出的最佳兑换方案是通过 Uniswap 兑换 96%，再通过 Bancor 兑换 4%，这样可以得到 148.47 DAI，这样比单独通过 Uniswap 或 Bancor 进行兑换都划算。
 
-注意，这个价格不能提供给智能合约的 Oracle，由于各种各样的错误，DEX 可以提供非常低的价格，因此可能会严重操纵这个价格。
+注意，**这个价格不能作为智能合约的 Oracle，由于各种各样的错误，DEX 可以提供非常低的价格，因此可能会严重操纵这个价格**。
 
 能够轻松使用 DEX 聚合器是 DeFi 的一项很棒的功能。 由于大多数协议都是开放的，因此你只需要了解它们即可使用 DeFi 的功能。
+
+

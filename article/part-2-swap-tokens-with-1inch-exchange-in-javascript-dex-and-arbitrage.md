@@ -4,7 +4,7 @@
 
 对于本教程，将了解如何使用 1inch DEX 聚合器执行交易使用 web3.js 库的 JavaScript 中的。通过本教程，你将了解如何在以太坊区块链上直接交换 ERC20 token和以太币。
 
-本文是第 2 部分(点击这里前往第 1 部分)，在上一篇向你介绍了如何获得交易报价：获取你要出售的token所获得的token数量。本文，我们来看一看如何用 JavaScript 执行交易。
+本文是第 2 部分，在上一篇向你介绍了如何获得交易报价：获取你要出售的token所获得的token数量。本文，我们来看一看如何用 JavaScript 执行交易。
 
 [img]
 
@@ -16,7 +16,7 @@
 
 - 通过使用在步骤 1 中获得的参数调用 swap 方法进行交易。
 
-但是在开始之前，我们需要定义一些变量和一些辅助函数，使代码更简单：
+但是在开始之前，我们需要定义一些变量和一些辅助函数，使代码更简单。
 
 ## Setup
 
@@ -25,6 +25,8 @@
 ```
 ganache-cli -f https://mainnet.infura.io/v3/[YOUR INFURA KEY] -d -i 66 --unlock 0x78bc49be7bae5e0eec08780c86f0e8278b8b035b -l 8000000
 ```
+
+## 实战 - 执行多DEX兑换方案
 
 在本教程中，我们使用1inch聚合器将1000 DAI兑换为ETH。首先定义一些变量，例如合约地址、ABI等。
 
@@ -74,7 +76,7 @@ async function waitTransaction(txHash) {
 
 ## 获取汇率
 
-我们在之前已经获得了交易汇率，把代码变的更可读。
+我们在之前已经获得了交易汇率，现在把代码变的更可读。
 
 函数`getQuote` 返回一个包含所有参数的对象，以使用[第一部分中详细介绍的兑换函数]()。
 
@@ -100,11 +102,7 @@ async function getQuote(fromToken, toToken, amount, callback) {
 
 ## Approve the spending of the token
 
-
-
-Once we got the rate for exchanging a token as seen in part 1, we first need to approve the 1inch dex aggregator smart contract to spend our token. As you may know, the ERC20 token standard does not allow to send tokens to a smart contract and trigger an action from it in one transaction We wrote a simple function that calls an ERC20 contract instance approve function and wait for the transaction to be mined using our previous waitTransaction helper:
-
-一旦获得了第1部分中所述的令牌交换率，我们首先需要批准1inch dex聚合器智能合约来花费我们的令牌。 如您所知，ERC20令牌标准不允许将令牌发送到智能合约并在一次交易中触发它的操作。我们编写了一个简单的函数，该函数调用ERC20合约实例批准函数，并等待使用进行交易。 我们之前的waitTransaction助手：
+一旦获得了第1部分中所述的token交换率，我们首先需要批准1inch dex聚合器合约来花费我们的token。如你所知，ERC20 token标准不允许将token发送到智能合约并在一次交易中触发它的操作。我们编写了一个简单的函数，该函数调用ERC20合约实例批准函数，并等待使用进行交易。正好用到辅助函数 waitTransaction 。
 
 一旦我们得到了兑换token的比率，接下来需要授权1inch可以操作我们持有的token，ERC20 token标准不允许在一次交易中向合约发送token并触发它的一个动作。我们写了一个简单的函数，调用`approval`函数，并使用 waitTransaction 等待交易确认。
 
@@ -130,8 +128,7 @@ function approveToken(tokenInstance, receiver, amount, callback) {
 
 ## Make the swap
 
-
-接下来就可以调用1inch聚合器的swap函数了。在下面的代码中，我们在调用`swap`函数执行交易后，等待交易确认，并在交易确认后，显示转出账户的eth余额和dai余额：
+接下来就可以调用1inch聚合器的swap函数了。在下面的代码中，我们在调用`swap`函数执行交易后，等待交易确认，并在交易确认后，显示转出账户的eth余额和dai余额。
 
 ```js
 let amountWithDecimals = new BigNumber(amountToExchange).shiftedBy(fromTokenDecimals).toFixed()
@@ -174,12 +171,10 @@ npm install
 node index.js
 ```
 
-你可能遇到的这样一个错误提示：“**VM Exception while processing transaction: revert OneSplit: actual return amount is less than minReturn**”。简单说下，自从你得到报价后，报价已经发生了变化，区块在区块链上被挖矿了。如果你想避免这种情况发生，你可以在你的代码中引入一个滑点，根据你的交易金额，将掉期的minReturn参数降低1%或3%。
-
+在这个过程中，你可能会遇到的这样一个错误提示：“**VM Exception while processing transaction: revert OneSplit: actual return amount is less than minReturn**”。这表示链上的报价已经更新。如果想避免这种情况发生，你可以在代码中引入一个滑点，根据交易金额，将minReturn参数减小1%或3%。
 
 ## 1inch Dex聚合器使用小结
 
-1inch提供了出色的链上DEX聚合实现，可以在一个交易内利用多个DEX实现最优的兑换策略。1inch的API使用也很简单，只需要用getExpectedReturn估算兑换方案， 然后使用swap执行兑换方案，就可以得到最好的兑换结果。无论是钱包、套利机器人 还是其他DApp，都可以利用1inch来快速实现ETH/ERC20的兑换并且得到最佳的收益。
-
+1inch提供了出色的链上DEX聚合实现，可以在一个交易内利用多个DEX实现最优的兑换策略。1inch的API使用也很简单，只需要用getExpectedReturn估算兑换方案， 然后使用swap执行兑换方案，就可以得到最好的兑换结果。 您不必总是用Ether交换，可以一起交换2个ERC20代币，甚至可以用Wrapped Ether交换。
 
 http://blog.hubwiz.com/2020/11/29/1inch-arbitrage/
