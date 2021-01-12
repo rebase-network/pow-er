@@ -1,3 +1,9 @@
+---
+category: DeFi
+title: Liquidity Mining a User Centric Token Distribution Strategy.
+date: "2020-11-23 00:00:00"
+---
+
 **原文链接:** https://medium.com/bollinger-investment-group/liquidity-mining-a-user-centric-token-distribution-strategy-1d05c5174641
 
 **作者:** Dmitriy Berenzon
