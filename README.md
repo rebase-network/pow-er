@@ -5,6 +5,7 @@ pow-er翻译计划 是 [Rebase 社区](https://rebase.network) 发起的一个�
 # 记录待翻译内容  
 - [ ] [2021-12-30-Why-is-my-rust-build-so-slow](./2021-12-30-Why-is-my-rust-build-so-slow)
 - [ ] [DECENTRALIZED STORAGE](https://ethereum.org/en/developers/docs/storage/)
+- [ ] [Rust gentle intro](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
 
 # 已翻译内容
 - [ ] [2020-06-13-DeFi-flashloans-comparison](./2020-06-13-DeFi-flashloans-comparison)
