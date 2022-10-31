@@ -7,9 +7,12 @@ A new mechanism for capital coordination within decentralized communities
 ---
 
 原文：https://daohaus.substack.com/p/community-contribution-opportunity
+
 作者：Spencer Graham
+
 编译：nicole
-整理：shooter
+
+整理、校对：shooter
 
 ---
 
@@ -23,15 +26,19 @@ A new mechanism for capital coordination within decentralized communities
 
 - Decentralized communities and DAOs can conduct a CCO today using the DAOhaus platform.
 
-- 社区贡献机会（CCO）是一种新的资本协调机制，通过加强对资方的保护并降低资方风险，增加可用于项目投资的资金数额。
 
-- CCO 使用 DAO 工具，以非监管的方式协调对项目的资本贡献。出资人保持对其资本的监管，并对如何使用资本拥有治理权，使他们成为项目社区的积极参与者，并在不需要信任成本的情况下保护他们免受风险。
+- 社区贡献机会（CCO）是一种新的资本协调机制，通过加强对投资方的保护并降低投资方的风险，增加可用于项目投资的资金数额。
 
-- 这些降低的风险大大增加了提供资金的吸引力，使更多的资金可用于项目投资，特别是对于那些希望在全球范围内扩大积极影响力的去中心化社区和 DAO。
+- CCO 使用 DAO 工具，以非监管的方式协调对项目的资本贡献。投资方保持对其资本的监督，并对如何使用资本拥有治理权，使他们成为项目社区的积极参与者，并在不需要信任关系的情况下保护他们免受风险。
 
-- 去中心化的社区和 DAO 今天可以使用 DAOhaus 平台进行 CCO。
+- 这些风险的降低，大大提高了出资的吸引力，使得更多的资金用于项目投资，特别是对于那些希望在全球范围内扩大积极影响力的去中心化社区和 DAO。
 
-## Current problems in capital coordination 当前资本协调存在的问题
+- 现在，去中心化的社区和 DAO 可以使用 DAOhaus 平台进行 CCO。
+
+---
+
+## Current problems in capital coordination
+## 当前资本协调机制存在的问题
 
 Capital coordination is an incredibly powerful concept that has driven many of the advances in human well-being. But it has yet to reach its true potential.
 
@@ -44,17 +51,18 @@ The amount of capital available to fund valuable new projects is inherently limi
 Downside risk can be offset by the perception of a high likelihood of a positive return (or even a low likelihood of a large return), but the effect is not symmetric: the wealthy are able to accept the high risk of loss in exchange for the chance of outsized returns much easier than the less wealthy, who may not have that luxury. This structural inevitability [exacerbates wealth inequality](https://www.gsb.stanford.edu/insights/how-much-does-venture-capital-drive-us-economy) and promotes unjust outcomes.
 
 
-资本协调是一个无比强大的概念，它推动了人类福祉进步。但目前，它尚未发挥出真正的潜力。
+资本协调机制是一个无比强大的概念，它推动了人类福祉进步。但目前，它尚未发挥出真正的潜力。
 
-如果人类能够更好地协调资本，我们便可以投资更多有价值的项目，进一步推进人类福祉发展，并帮助缓解不公平分配的现状。
+如果人类能够更好地调配资本，我们便可以投资更多有价值的项目，进一步推进人类福祉发展，并帮助缓解这种福祉的不公平分配。
 
-是什么阻碍了我们的步伐呢？主要有两个方面的问题。目前的资本协调机制造成了信息不对称，并要求出资人信任缺乏资源的项目团队。种种问题加剧了企业投资的固有风险，并进一步限制了潜在出资人为项目提供的资金量。
+是什么阻碍了我们的步伐呢？主要有两个复杂的大问题。目前的资本协调机制造成了**信息不对称**，并要求出资人**信任缺乏资源的项目团队**。这些问题加剧了企业投资的固有风险，并进一步限制了潜在投资方为项目提供的资金量。
 
 可用于投资有价值的新项目的资金数量，本质上会因为投资方的风险而受到限制。在几乎没有回报率的情况下，人们对于资金亏损的感知风险越高，就越不愿意为一个项目提供资金。
 
-下行风险可以被大概率的正回报 (甚至是低概率的大回报) 这一认知所抵消，但这种影响是不对称的：相比较不太富裕的人，富人更容易接受高风险的损失，以换取超额收益的机会；对于后者来说，这是一种奢侈。这种结构性的必然性加剧了财富差异，也导致了不公平的结果。
+下行风险可以被大概率的正回报 (甚至是低概率的大回报) 这一认知所抵消，但这种影响是不对称的：相比较不太富有的人，富人更容易接受高风险的损失，以换取超额收益的机会；对不太富有的人来说，这种机会非常奢侈。这不可避免的[加剧了贫富差距](https://www.gsb.stanford.edu/insights/how-much-does-venture-capital-drive-us-economy)，助长了不公正的结果。
 
-## Information Asymmetry 信息不对称
+## Information Asymmetry
+## 信息不对称
 
 A key factor influencing a person's perception of risk is information. The more information you have about the project and related factors, the better you can assess each. But access to information is not equal; project teams know a lot more about what's going on with their project than anybody else, which multiplies the risk perceived by would-be capital contributors.
 
@@ -64,15 +72,16 @@ In order to raise capital from the general public, project teams must register t
 
 Capital contributors are often restricted from participating altogether based on an arbitrary threshold of personal wealth. This is (ostensibly) meant as a form of protection for capital contributors to ensure they are knowledgeable and can sustain a "total loss" of the capital they contribute. In reality, it primarily serves to exacerbate wealth inequality and, counterproductively, reduce the total amount of capital available for projects to do good things in the world.
 
-影响个人对风险感知的一个关键因素就是信息。你掌握的关于项目和相关因素的信息越多，你就越能更好地对此进行评估。信息获取并不平等；项目团队比其他人更了解项目的情况，这使得潜在投资人认为的风险成倍增加。
+影响个人对风险感知的一个关键因素就是信息。对项目和相关因素的了解越多，你就可以更好地评估每个因素。但获取信息的机会并不平等；项目团队比其他人更了解项目的情况，这使得潜在投资者认为的风险成倍增加。
 
-如果不加以控制，信息不对称可能导致欺诈和盗窃。为了解决这个问题，现行的法律法规对项目团队和潜在投资人都施加了重大的限制和责任。
+如果不加以控制，信息不对称可能导致欺诈和盗窃。为了解决这个问题，现行的法律法规对项目团队和潜在投资者都 施加了重大的限制和责任。
 
-为了向公众筹集资金，项目团队必须注册他们的证券/或进行冗长、复杂和昂贵的监管申报，以获取监管机构的批准（特定豁免除外），并且通常需要定期向监管机构和出资人报告最新情况。
+为了向公众筹集资金，项目团队必须在证券市场进行注册，或进行冗长、复杂且昂贵的监管申报，以获取监管机构的批准（特定豁免除外），并且通常需要定期向监管机构和投资方报告最新情况。
 
-投资人往往受到其个人财富门槛的限制，不能完全参与其中。表面上，这是对投资人的一种保护，以确保他们了解全貌，并且将损失控制在自身承受范围之内。但实际上，这却加剧了财富差异，并产生相反的效果，可用于项目投资的总资金量大大削减。
+投资方往往受到其个人财富门槛的限制，不能完全参与其中。表面上，这是对投资方的一种保护，以确保他们了解全貌，并且将损失控制在自身承受范围之内。但实际上，这却加剧了贫富差距，并产生相反的效果，可用于项目投资的总资金量大大减少。
 
-## Trust Requirement 信任要求
+## Trust Requirement
+## 信任要求
 
 Today, capital contributors must fully part with their capital and trust the project team to wisely deploy it towards the stated objectives. Combined with information asymmetry, this trust requirement creates significant risk for capital contributors, and is ultimately largely responsible for reducing the total amount of capital available to projects. The myriad regulations designed to mitigate this problem have unwanted chilling effects of their own, and are only partially successful at achieving their stated goal.
 
@@ -512,7 +521,7 @@ Your decentralized community or DAO can run a CCO today using the DAOhaus platfo
 
 To recap, here is a list of the core benefits of the CCO framework:
 
-我们认为，CCOs 是资本协调方面的重大进步。我们期待更多去中心化的社区——也许还有其他类型的项目——利用 CCOs 进一步扩大他们产生的积极影响力。
+我们认为，CCO 是资本协调机制方面的重大进步。我们期待更多去中心化的社区——也许还有其他类型的项目——利用 CCOs 进一步扩大他们产生的积极影响力。
 你的去中心化社区或 DAO 现在可以使用 DAOhaus 平台运行 CCO。
 
 随着我们进一步完善这些功能，我们在这里简单概括一下 CCO 框架的核心优势：
