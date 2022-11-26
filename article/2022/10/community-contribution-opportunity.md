@@ -74,7 +74,7 @@ Capital contributors are often restricted from participating altogether based on
 
 影响个人对风险感知的一个关键因素就是信息。对项目和相关因素的了解越多，你就可以更好地评估每个因素。但获取信息的机会并不平等；项目团队比其他人更了解项目的情况，这使得潜在投资者认为的风险成倍增加。
 
-如果不加以控制，信息不对称可能导致欺诈和盗窃。为了解决这个问题，现行的法律法规对项目团队和潜在投资者都 施加了重大的限制和责任。
+如果不加以控制，信息不对称可能导致欺诈和盗窃。为了解决这个问题，现行的法律法规对项目团队和潜在投资者都施加了重大的限制和责任。
 
 为了向公众筹集资金，项目团队必须在证券市场进行注册，或进行冗长、复杂且昂贵的监管申报，以获取监管机构的批准（特定豁免除外），并且通常需要定期向监管机构和投资方报告最新情况。
 
@@ -178,7 +178,7 @@ In the context of a CCO, individuals on the project team get full shares, typica
 
 Moloch DAO 框架的灵感来自于最初的 Moloch DAO，后来被数百个 DAO 使用。有几个核心属性是 CCO 的关键：
 
-- 以股份形式存在的不可转让的成员资格。股份有两种类型：具有完全投票权的 "全额股份 "和具有经济权利和间接治理权的 "掠夺股份"。
+- 以股份形式存在的不可转让的成员资格。股份有两种类型：具有完全投票权的 "全额股份" 和具有经济权利和间接治理权的 "掠夺股份"。
 
 - 加权投票权，由一个成员拥有的全额股份数量代表。
 
@@ -208,7 +208,7 @@ During the CCO, the token serves as a record of contributions to the project. Af
 
 Depending on the future role the token will play, the project team can select what properties the token should have, such as a fixed or adjustable supply, the initial supply, etc.
 
-项目代币的目的是代表所有个人对项目的价值，包括项目团队的 "汗水 "贡献，以及资本贡献者的资本贡献和治理活动。
+项目代币的目的是代表所有个人对项目的价值，包括项目团队的 "汗水" 贡献，以及资本贡献者的资本贡献和治理活动。
 
 通常情况下，它是一个标准的 ERC20 代币，不过一些修改可能是有价值的（参见修改部分的示例）。
 
@@ -237,7 +237,6 @@ Transmutation minion 持有足够的项目代币来（最终）取代 DAO 中的
 以下是 Transmutation minion 智能合约的早期示例。
 
 ### Vault
-
 
 The purpose of the Vault is to hold project tokens for later distribution to various recipients once a predetermined unlocking condition is met. The allocation of project tokens is hard-coded into the Vault smart contract; each recipient (and only the recipient) can later claim their allocation from the Vault.
 

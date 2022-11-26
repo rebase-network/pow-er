@@ -4,6 +4,12 @@
 
 2. 原文中的「capital」有两种译法，「资本」和「资金」，在多数情况下译为「资本」，因为泛指有形资本、无形资本、金融资本和人力资本等各种形式的经济资源。
 
+原文：https://daohaus.substack.com/p/community-contribution-opportunity
+
+作者：Spencer Graham
+
+整理、校对：shooter
+
 ---
 
 - A Community Contribution Opportunity (CCO) is a new mechanism for capital coordination that increases the amount of capital available to fund projects by strengthening protections and lowering risks for capital contributors.
@@ -20,7 +26,7 @@
 
 - Decentralized communities and DAOs can conduct a CCO today using the DAOhaus platform.
 
-- 去中心化社区和 DAO 组织可以通过 DAOhaus 平台来应用 CCO。
+- 去中心化社区和 DAO 组织可以通过 DAOhaus 平台来使用 CCO。
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c50e6c2c-f16f-4bd1-af2a-0a076d825194/Untitled.png)
 
@@ -39,7 +45,7 @@ If humanity were able to better coordinate capital, we could fund many more valu
 
 What's stopping that from happening? There are two big, compounding problems. Current capital coordination mechanisms create information asymmetries and require capital contributors to trust project teams with little recourse. Together, these issues exacerbate the inherent risk of any venture and further limit the amount of capital that would-be contributors are willing to make available to fund projects.
 
-但我们遇到了两个巨大且复杂的难题。首先，当前的资本配置机制会导致信息不对称；其次，它要求资本贡献者在没有足够保障的情况下对项目团队保持信任。这两个问题作用在一起加剧了投资风险，资本贡献者的意愿会随之降低，投资金额也会减少。
+但我们遇到了两个巨大且复杂的难题。首先，当前的资本配置机制会导致**信息不对称**；其次，它要求**资本贡献者在没有足够保障的情况下对项目团队保持信任**。这两个问题作用在一起加剧了投资风险，资本贡献者的意愿会随之降低，投资金额也会减少。
 
 The amount of capital available to fund valuable new projects is inherently limited by the risk of contributing capital to those projects. The higher the perceived risk of losing capital with little to no return, the less interested people are in contributing capital to a project.
 
@@ -47,15 +53,16 @@ The amount of capital available to fund valuable new projects is inherently limi
 
 Downside risk can be offset by the perception of a high likelihood of a positive return (or even a low likelihood of a large return), but the effect is not symmetric: the wealthy are able to accept the high risk of loss in exchange for the chance of outsized returns much easier than the less wealthy, who may not have that luxury. This structural inevitability exacerbates wealth inequality and promotes unjust outcomes.
 
-不过，投资的下行风险可以被高回报率所抵消，即使回报率很低，但只要潜在的收益足够高，也会降低投资者对风险的感知。但是预期收益对风险的影响不是绝对的：富人比穷人更容易接受高风险高回报的投资行为，因为他们有足够的资本。这种不可避免的结构性现实加剧了贫富差异和分配不公。
+不过，投资的下行风险可以被高回报率所抵消，即使回报率很低，但只要潜在的收益足够高，也会降低投资者对风险的感知。但是预期收益对风险的影响不是绝对的：富人比穷人更容易接受高风险高回报的投资行为，因为他们有足够的资本。这种不可避免的结构性现实[加剧了贫富差距](https://www.gsb.stanford.edu/insights/how-much-does-venture-capital-drive-us-economy)
+和分配不公。
 
-## **Information Asymmetry**
+## Information Asymmetry
 
 ## 信息不对称
 
 A key factor influencing a person's perception of risk is information. The more information you have about the project and related factors, the better you can assess each. But access to information is not equal; project teams know a lot more about what's going on with their project than anybody else, which multiplies the risk perceived by would-be capital contributors.
 
-信息是影响我们风险感知能力的一个关键因素。你所掌握的项目信息越多，你就能够更好地评估这个项目。但是获取信息的渠道不是绝对公平的，项目团队比其他任何人都更了解项目的具体情况，这种信息不对称会增加投资者所感知到的风险。
+信息是影响我们风险感知能力的一个关键因素。你所掌握的项目信息越多，就能够更好地评估这个项目。但是获取信息的渠道不是绝对公平的，项目团队比其他任何人都更了解项目的具体情况，这种信息不对称会增加投资者所感知到的风险。
 
 If left unchecked, information asymmetry can result in fraud and theft. To combat it, current laws and regulations impose significant constraints and responsibilities on both project teams and prospective capital contributors.
 
@@ -69,7 +76,7 @@ Capital contributors are often restricted from participating altogether based on
 
 投资者则常常因为个人资产达不到某个（随机选定的）标准而被拦在门外，不能进行投资。这（表面上）是（法律）为了保护那些缺乏知识储备，无法承受本金亏空风险的投资者，但实际上它不仅加剧了贫富差异，还导致本来可以用来为这个世界创造价值的资本变少了。
 
-## **Trust Requirement**
+## Trust Requirement
 
 ## 信任难题
 
@@ -81,7 +88,7 @@ What if there were a way to change the game so that capital contributors didn't 
 
 有没有一种方法可以改变游戏规则，让投资者能够参与项目资本配置的决策，而不需要把所有希望寄托于项目团队和又贵又拖沓的法律系统，并且它还能取代现有的监管机制——繁杂的财务报表和文件——实现真正的公开透明和信息对称？假如这些都能实现，想象一下到时候会释放多少资本用来投资有价值的新项目！
 
-# **Community Contribution Opportunity**
+# Community Contribution Opportunity
 
 # CCO（社区贡献机会）
 
@@ -91,7 +98,7 @@ We think there is such a way.
 
 Using DAO smart contracts, we can enable capital contributors to fund projects while simultaneously maintaining custody and control over their capital. In other words, custody of the capital doesn't pass to the project team until they actually spend the funds, and, even then, the capital contributors have the ability to withdraw those funds if they disagree with any aspect of how that tranche of funds will be spent.
 
-我们可以使用 DAO 智能合约让资本贡献者在投资的同时能够保有对资金的监管和控制权。换句话说，项目团队只有在真的需要使用资金时钱才会移交给他们，而且只要资本贡献者没有和项目方就资金的用途达成一致，他们可以撤资。
+我们可以使用 DAO 智能合约让资本贡献者在投资的同时能够保有对资金的监管和控制权。换句话说，项目团队只有在真的需要使用资金时钱才会移交给他们，而且只要资本贡献者没有和项目方就资金的用途达成一致，他们就可以撤资。
 
 We can extend this concept even further. By introducing a project token that represents their capital contribution, we can allow capital contributors to maintain custody and control over the value they contributed over the entire life of a project, long after their capital has been deployed.
 
@@ -113,7 +120,7 @@ How does a CCO actually work? In the next section, we'll explore that in detail.
 
 CCO 是怎么运作的？我们会在下一节详细说明。
 
-## **CCO Ingredients**
+## CCO Ingredients
 
 ## CCO 的要素
 
@@ -161,20 +168,23 @@ Together, the project team and capital contributors will use several web3-native
 
 The Moloch DAO framework was inspired by the original Moloch DAO and has since been used by hundreds of DAOs. It has several core properties that are key to a CCO:
 
-Moloch DAO 框架受到了原始 Moloch DAO 的启发，目前有数百个 DAO 都使用了这个框架。它有几个核心要点（如下），这也是 CCO 的关键所在。
+[Moloch DAO 框架](https://coinmarketcap.com/alexandria/glossary/moloch-dao) 框架受到了[最初的 Moloch DAO ](https://molochdao.com/)的启发，后来被[数百个 DAO 使用](https://app.daohaus.club/explore)。它有如下几个核心要，这也是 CCO 的关键所在：
 
 - Non-transferable membership in the form of shares. There are two types of shares: “full shares” with full voting rights and “loot shares” with economic rights and indirect governance power.
-- 股份代表项目成员的身份，且不可转让。有两种类型的股份：1）有完整投票权的「全额股份」；2）有经济权和间接治理权的「收益股份」。
+- 股份代表项目成员的身份，且不可转让。有两种类型的股份：有完整投票权的「全额股份」；有经济权和间接治理权的「收益股份」。
+
 - Weighted voting rights, represented by the number of full shares a member has.
-- 每个成员拥有的全额股份的数量代表他们的投票权重（这是加权投票制）。
+- 加权投票制，每个成员拥有的全额股份的数量代表他们的投票权重。
+
 - Economic exit rights (aka “ragequit”), represented by the total number of shares and loot shares a member has, which is also a limited form of governance power. This is the most important property for a CCO.
 - 每个成员拥有的全额股份和收益股份总数代表他们的经济退出权，也叫「怒退」权（Ragequit），是一种变相的治理权，也是 CCO 最重要的属性。
+
 - Proposals involve a voting period (during which members vote with their full shares) and a grace period (during which any member who didn’t vote yes can ragequit). A passed proposal can be executed only after the grace period.
 - 项目提案流程包括投票期（成员凭借自己的全额股份来进行投票）和宽限期（没有投赞成票的成员可以选择怒退）两个阶段。通过表决的方案必须等到宽限期结束才能开始执行。
 
 A Moloch DAO can hold assets (e.g., capital) in its treasury, and that capital is collectively controlled by the members of the DAO. Members with full shares can vote on proposals for how to deploy the capital. Members with loot shares can ragequit at any time to leave with their pro rata portion of the capital in the DAO treasury.
 
-Moloch DAO 可以把项目资本存在金库里，但这些资本由 DAO 的所有成员共同控制。持有全额股份的成员可以就资本的配置方案进行投票表决，持有收益股份的成员在任何时间都可以选择从金库中取出对应比例的资本怒退，即离开项目。
+Moloch DAO 可以把项目资本存在金库里，但这些资本由 DAO 的所有成员共同控制。持有全额股份的成员可以就资本的配置方案进行投票表决，持有收益股份的成员在任何时间都可以选择从金库中取出对应比例的资本执行怒退，即离开项目。
 
 Importantly, the ragequit mechanism allows members to leave the DAO during the grace period after a proposal passes, but before it can be executed. This creates strong protections for members with minority shares, since they're never at the mercy of the rest of the DAO and can always leave with their capital before it is spent. Ragequit is what gives CCO capital contributors control over their capital — without relinquishing custody! — even while it remains available to fund the project.
 
@@ -184,17 +194,16 @@ In the context of a CCO, individuals on the project team get full shares, typica
 
 在 CCO 机制里，项目团队中的成员根据他们给项目创造的价值获得相应比例的全额股份，而资本贡献者们根据他们所贡献的资本获得相应比例的收益股份。
 
-**Capital**
+## Capital
 
-**资本**
+## 资本
 
 Initially held only by the capital contributors, the capital must be in an ERC20 token form. Typically it is a stablecoin like DAI, but could also be some other money-like currency (e.g., wrapped ETH or wrapped Bitcoin), or even other assets such as personal tokens. As long as it can be represented as an ERC20-compatible token, anything that the project can leverage to help achieve its objectives can serve as capital. The project team determines which types of capital the CCO will accept.
 
-资本贡献者所提供的资本必须转换成 ERC20 代币的形式。一般我们会用 DAI 这样的稳定代币，但也可能使用类似金钱的通货，比如 ETH 或者比特币，甚至是其他类型的资产，比如个人代币。只要可以转换成和 ERC20 兼容的代币，任何能帮助项目实现目标的东西都可以作为「资本」，项目团队将决定 CCO 接受哪些形式的资本。
+资本贡献者所提供的资本必须转换成 ERC20 代币的形式。一般我们会用 DAI 这样的稳定币，但也可以使用其他类型的代币（比如 WETH 或者 WBTC），甚至是其他类型的资产，比如个人代币。只要可以转换成和 ERC20 兼容的代币，任何能帮助项目实现目标的东西都可以作为「资本」，项目团队将决定 CCO 接受哪些形式的资本。
 
-**Project Token**
-
-**项目代币**
+## Project Token
+## 项目代币
 
 The purpose of the project token is to represent the value that all individuals contribute to the project, including "sweat" contributions from the project team as well as both capital contributions and governance activities from the capital contributors.
 
@@ -210,9 +219,10 @@ During the CCO, the token serves as a record of contributions to the project. Af
 
 Depending on the future role the token will play, the project team can select what properties the token should have, such as a fixed or adjustable supply, the initial supply, etc.
 
-项目团队可以根据后期项目代币可能发挥的功能来决定它的属性，比如它的发行量是固定不变的还是可调节的，是作为初始代币还是其它的等等。
+项目团队可以根据后期项目代币可能发挥的功能来决定它的属性，比如它的发行量是固定的还是可调节的，初始供应量等等。
 
-**Transmutation Minion**
+## Transmutation Minion
+## Transmutation Minion
 
 Moloch Minions are smart contracts that add capabilities to a Moloch DAO. They allow a DAO to execute more complex actions, and are controlled by the same proposal process as standard Moloch DAO functions.
 
@@ -232,19 +242,18 @@ As capital is deployed in service of the project, it is replaced in the DAO by t
 
 Here is an early example of a Transmutation minion smart contract.
 
-可以参考这个早期的 Transmutation minion 智能合约。
+可以参考这个早期的 [Transmutation minion 智能合约](https://github.com/HausDAO/TransmutationSummoner)。
 
-[https://github.com/HausDAO/TransmutationSummoner](https://github.com/HausDAO/TransmutationSummoner)
-
-**Vault**
+## Vault
+## 金库
 
 The purpose of the Vault is to hold project tokens for later distribution to various recipients once a predetermined unlocking condition is met. The allocation of project tokens is hard-coded into the Vault smart contract; each recipient (and only the recipient) can later claim their allocation from the Vault.
 
-Vault 的用途是保管项目代币，直到满足预先设定好的某个条件后才能解锁，然后分配给各种接收者。项目代币的分配机制是用硬编码写进智能合约里的，只有接收者可以从 Vault 中索取他们的分配份额。
+Vault 的用途是保管项目代币，直到满足预先设定好的某个条件后才能解锁，然后分配给各种接收者。项目代币的分配被硬编码到 Vault 智能合约中，只有接收者可以从 Vault 中索取他们的分配份额。
 
 The most important recipients are initial members of the project team, and the Vault is where virtually all of their allocation of project tokens will come from over the course of the CCO. Locking up the project team's tokens until the capital is spent creates a strong incentive for them to complete the planned work, and to do so in a way that the capital contributors support.
 
-项目团队的初始成员最重要的代币接收者，在整个 CCO 过程中，他们的项目代币都由金库进行分配。项目团队的代币在最开始会处于锁定状态，直到他们真的把资金部署到项目上，代币才会解锁，这可以激励他们主动去争取资本贡献者的支持来推进工作。
+项目团队的初始成员是最重要的代币接收者，在整个 CCO 过程中，他们的项目代币都由金库进行分配。项目团队的代币在最开始会处于锁定状态，直到他们真的把资金部署到项目上，代币才会解锁，这可以激励他们主动去争取资本贡献者的支持来推进工作。
 
 Other recipients can include a future project DAO treasury, allocations for future members of the project team, distributions to project participants or users (e.g., in the form of a retroactive airdrop), or anything that is relevant to helping the project succeed.
 
@@ -252,16 +261,15 @@ Other recipients can include a future project DAO treasury, allocations for futu
 
 The unlocking condition is typically when all capital has been deployed from the DAO. At this point, the planned work should be finished and so the project team and capital contributors can start to receive their project tokens (by claiming from the Vault and ragequitting from the DAO, respectively).
 
-通常情况下，项目代币要满足的解锁条件是：资本全部从 DAO 中部署完毕。到这个时候该完成的计划工作应该已经完成，项目团队和资本贡献者可以开始接收他们的项目代币了，前者要向 Vault 发送索取请求，后者要从 DAO 中怒退出来。
+通常情况下，项目代币要满足的解锁条件是：资本全部从 DAO 中部署完毕。到这个时候计划中的工作应该已经完成，项目团队和资本贡献者可以开始接收他们的项目代币了，前者要向 Vault 发送索取请求，后者要从 DAO 中怒退出来。
+
+解锁条件通常是 DAO 中所有资本部署完毕时。此时，计划中的工作应该已经完成，因此项目团队和资本贡献者可以开始收到他们的项目代币（分别从 Vault 和 DAO 愤怒退出）。
 
 Here is an early example of a Vault smart contract.
 
-可以参考这个早期的金库智能合约。
+可以参考这个早期的[Vault 智能合约](https://github.com/HausDAO/wc/blob/develop/contracts/Trust.sol)
 
-[https://github.com/HausDAO/wc/blob/develop/contracts/Trust.sol](https://github.com/HausDAO/wc/blob/develop/contracts/Trust.sol)
-
-## **Lifecycle of a CCO**
-
+## Lifecycle of a CCO
 ## CCO 的生命周期
 
 The life cycle of a CCO breaks down into four distinct phases:
@@ -277,7 +285,7 @@ We'll walk through each of them to outline the entire lifecycle of a CCO.
 
 我们会按照顺序逐一介绍这四个阶段。
 
-### **Phase 1: Setup**
+### hase 1: Setup
 
 ### 第一阶段：设置
 
@@ -375,7 +383,7 @@ Because capital contributors always have this option, they wield a fair amount o
 
 Once all of the capital has been deployed and only project tokens remain in the DAO, this phase is complete and the CCO moves to Phase 4.
 
-一旦所有资金部署完毕，只剩下 DAO 里面的项目代币，这个阶段就结束了，CCO 将会进入第四个阶段。
+一旦所有资金全部署完毕，只剩下 DAO 里面的项目代币，这个阶段就结束了，CCO 将会进入第四个阶段。
 
 ### Phase 4: Distribution
 
@@ -387,22 +395,23 @@ At this point, there is no more capital in the DAO for the project team to spend
 
 For one, the capital contributors can ragequit their loot shares from the DAO to receive their portion of the tokens. The project team can also ragequit their full shares from the DAO, though by design the amount of project tokens they receive in this way is minimal compared to what they receive from the Vault.
 
-第一，资本贡献者们可以从 DAO 中怒退自己的收益股份，得到相应比例的代币，项目团队成员也可以怒退自己的全额股份，不过和他们从 Vault 接收的代币相比，他们怒退得到的代币数量会少很多。
+首先，资本贡献者们可以从 DAO 中怒退自己的收益股份，得到相应比例的代币，项目团队成员也可以怒退自己的全额股份，不过和他们从 Vault 接收的代币相比，他们怒退得到的代币数量会少很多。
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04b83927-3672-4987-8ff5-2fb004337517/Untitled.png)
+> During Phase 4 of a CCO (Distribution), all capital has been spent and all initiatives are complete. At this point, Capital Contributors redeem their loot shares for their portion of the project tokens that were Transmuted into the DAO.
 
 Additionally, the Vault's unlocking condition is triggered. The project tokens become claimable by the recipients, including the members of the project team.
 
-第二，此时已经满足 Vault 的解锁条件，包括项目团队成员在内的接收者们可以开始发送索取请求。
+然后，此时已经满足 Vault 的解锁条件，包括项目团队成员在内的接收者们可以开始发送索取请求。
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e9a0c08-7d5b-4029-b1f1-479d741c2f6d/Untitled.png)
+> During Phase 4 of a CCO (Distribution), all capital has been spent and all initiatives are complete. These conditions trigger the Vault to unlock, allowing individual members of the Project Team to claim their allocations of the project tokens from the Vault.
 
 And that's a CCO! The project has advanced to the next level, the project team has grown and been able to compensate its contributors for their work, and both the project team and capital contributors have received project tokens representing their respective contributions. All without any actor relinquishing custody of their capital until it was deployed in service of the project.
 
-现在 CCO 已经搭建好了。到这个节点，项目已经取得了阶段性的成功，项目团队也收获了成长，已经有能力回馈贡献者了，另外，项目团队和资本贡献者都收到了代表各自贡献值的项目代币。记住，在资金投入使用之前，任何参与者都保有对自己资金的控制权。
+现在 CCO 体系已经搭建好了。到这个节点，项目已经取得了阶段性的成功，项目团队也收获了成长，已经有能力回馈贡献者了。另外，项目团队和资本贡献者都收到了代表各自贡献值的项目代币。记住，在资金投入使用之前，任何参与者都保有对自己资金的控制权。
 
 ## Modifications
-
 ## 优化
 
 Many modifications to this foundational construct are possible. Here are a few ideas.
@@ -410,7 +419,6 @@ Many modifications to this foundational construct are possible. Here are a few i
 现在这个基础框架还有很多可以优化的点，下面列举了一些想法：
 
 ### Capital Contributors Receive Full Shares
-
 ### 给资本贡献者发放全额股份
 
 Projects that want to involve capital contributors even more deeply in the community can opt to give them full shares instead of loot shares. This needs to be handled with intention and with care to ensure that the distribution of shares remains sufficiently decentralized to avoid plutocratic capture and support true community governance.
@@ -418,7 +426,6 @@ Projects that want to involve capital contributors even more deeply in the commu
 如果想让资本贡献者更深度参与社区，项目可以选择给他们发放全额股份而不是收益股份。不过操作时要非常小心谨慎，确保分配股份时要做到彻底去中心化，以避免权力集中在最有钱的少数人手里，从而实现真正的社区治理。
 
 ### Non-transferrable Project Token
-
 ### 项目代币不可转让制
 
 Making project tokens non-transferrable until a later date creates flexibility for additional activities prior to the token becoming liquid.
@@ -435,7 +442,7 @@ Another benefit is to projects expecting to have multiple phases. Such projects 
 
 Yet another use case is for projects that will be making retroactive distributions to users or setting up liquidity in a decentralized exchange. To promote fairness, the project team may not want anybody to receive the project tokens before anybody else, and executing on that goal requires time to set up properly. Preventing token transferability until those activities are fully set up can help align all the timing for maximum fairness.
 
-这个机制还适用于一种项目，即那些以可追溯的的形式向用户分发代币和在去中心化交易所进行代币流通的项目。为了保证公平，项目团队希望所有人都在同一时间接收代币，所以他们需要足够的时间来进行部署和设置，在完全准备好之前，项目代币不可转让制可以争取充足的时间来实现这种公平。
+这个机制还适用于一种项目，即那些以可追溯的形式向用户分发代币和在去中心化交易所进行代币流通的项目。为了保证公平，项目团队希望所有人都在同一时间接收代币，所以他们需要足够的时间来进行部署和设置，在完全准备好之前，项目代币不可转让制可以争取充足的时间来实现这种公平。
 
 One thing to consider is that ragequit requires *some* transferability. The token needs to be transferred from the DAO treasury to the ragequitter's wallet. We can account for this by creating logic within the token smart contract that allows the DAO, but nobody else, to transfer the token.
 
@@ -454,35 +461,34 @@ Other projects may want to have a token but are, for one reason or another, not 
 还有些项目本来是想要代币的，但出于各种原因还没有准备好创建代币，这种项目也可以先选择极简版 CCO，同时向资本贡献者承诺未来会发放代币。不过要注意的是，这样做需要建立信任关系，和 CCO 的不依赖信任关系的原则是背道而驰的，因此会有更大的风险。
 
 # Example: The DAOhaus CCO
-
 # 案例：DAOhaus CCO
 
 In 2020, DAOhaus conducted the first ever CCO to help fund the build-out of our new platform for community-centric DAOs. Here's a quick rundown on how we did it:
 
 2020 年，作为一个面向以社区为中心的 DAO 组织的新平台，DAOhaus 第一次使用 CCO 来进行资本配置。
 
-**Phase 1**: We summoned a [new Moloch DAO](https://app.daohaus.club/dao/0x64/0x283bdc900b6ec9397abb721c5bbff5ace46e0f50), with previous contributors to DAOhaus receiving full shares. We created the $HAUS token. We also deployed the [Transmutation minion](https://blockscout.com/xdai/mainnet/address/0x371273396027eF9D79bA66F4c48258d88648654D) and [Vault](https://blockscout.com/xdai/mainnet/address/0x09D32bB9D03Af44cb83c8C128ffd7b5AC7b33834) (which was called the Trust back then). Finally, we created the [$HAUS token](https://blockscout.com/xdai/mainnet/token/0xb0C5f3100A4d9d9532a4CfD68c55F1AE8da987Eb) and transferred the appropriate amounts into the minion and Vault.
+**Phase 1**: We summoned a [new Moloch DAO](https://app.daohaus.club/dao/0x64/0x283bdc900b6ec9397abb721c5bbff5ace46e0f50), with previous contributors to DAOhaus receiving full shares. We created the $HAUS token(原文有2处). We also deployed the [Transmutation minion](https://blockscout.com/xdai/mainnet/address/0x371273396027eF9D79bA66F4c48258d88648654D) and [Vault](https://blockscout.com/xdai/mainnet/address/0x09D32bB9D03Af44cb83c8C128ffd7b5AC7b33834) (which was called the Trust back then). Finally, we created the [$HAUS token](https://blockscout.com/xdai/mainnet/token/0xb0C5f3100A4d9d9532a4CfD68c55F1AE8da987Eb) and transferred the appropriate amounts into the minion and Vault.
 
-第一阶段：我们召集了一个新的 Moloch DAO，DAOhaus 的贡献者们获得了全额股份。然后我们创建了$HAUS 代币，完成了 Transmutation Minion 和 Vault（之前的名称是 Trust）的部署，把适量的代币转到了 Minion 和 Vault 里面。
+**第一阶段**：我们发起了一个[新的 Moloch DAO](https://app.daohaus.club/dao/0x64/0x283bdc900b6ec9397abb721c5bbff5ace46e0f50)，DAOhaus 的贡献者们获得了全额股份。然后我们创建了[$HAUS 代币](https://blockscout.com/xdai/mainnet/token/0xb0C5f3100A4d9d9532a4CfD68c55F1AE8da987Eb)，完成了 [Transmutation Minion](https://blockscout.com/xdai/mainnet/address/0x371273396027eF9D79bA66F4c48258d88648654D) 和 [Vault]()（之前的名称是 Trust）的部署，把适量的代币转到了 Minion 和 Vault 里面。
 
 **Phase 2**: We invited members of our extended community (friends, connections, the MetaCartel family, other DAO-focused people and projects) to contribute DAI to the cause. Over the course of 2 weeks, 39 members of the community (including both individuals and DAOs!) contributed capital and received loot shares.
 
-第二阶段：我们邀请了朋友、亲属、客户、其他关注 DAO 的人和 DAO 组织等等加入社区，为这份事业贡献 DAI。两周内，39 名社区成员（包括个人和 DAO 组织）参与了资本贡献并得到了相应的收益股份。
+**第二阶段**：我们邀请了朋友、亲属、MetaCartel 成员、其他关注 DAO 的人和 DAO 组织等等加入社区，为这份事业贡献 DAI。两周内，39 名社区成员（包括个人和 DAO 组织）参与了资本贡献并得到了相应的收益股份。
 
 **Phase 3:** Next, we started building. As the DAOhaus project team wrote code, designed new user experiences, and managed our community, we made Transmutation proposals against the DAO to pay for expenses and compensate contributors. The latter allowed us to double the number of contributors, many of whom are still contributing to DAOhaus today! Along the way, we kept the capital contributors informed of our progress and direction. A number of those capital contributors are now key members of the project team!
 
-第三阶段：开始建设。DAOhaus 项目团队开始写代码、设计新的交互效果、管理社区，我们针对 DAO 提交了 Transmutation 方案用来支付项目费用和激励贡献者，后一个动作让我们的贡献者数量翻了一番，甚至其中很多人至今仍然在为 DAOhaus 做出贡献。在整个过程中，我们不间断地向资本贡献者回报项目的进展和方向，这些人种的很大一部分现在已经变成我们项目团队的核心成员了。
+**第三阶段**：开始建设。DAOhaus 项目团队开始写代码、设计新的交互体验、管理社区，我们针对 DAO 提交了 Transmutation 方案用来支付项目费用和激励贡献者，后一个动作让我们的贡献者数量翻了一番，甚至其中很多人至今仍然在为 DAOhaus 做出贡献。在整个过程中，我们不间断地向资本贡献者回报项目的进展和方向，这些人中的许多人现在已经变成了项目团队的核心成员。
+
 
 **Phase 4**: After around 6 months, all DAI in the DAO had been transmuted into $HAUS tokens. At that point, capital contributors ragequit the DAO to receive their portion of the $HAUS and the project team claimed their $HAUS from the Vault. We then summoned a [new DAO](https://app.daohaus.club/dao/0x64/0xef3d8c4fbb1860fceab16595db7e650cd5ad51c1) to govern the DAOhaus core contributor activities, which we still use today.
 
-第四阶段：大概 6 个月之后，DAO 里面的所有 DAI 已经转化成了$HAUS 代币，这时资本贡献者们也从 DAO 怒退出去，拿到了对应的$HAUS 份额，项目团队则从 Vault 中索取了他们的份额。然后我们召集了一个新的 DAO 来管理 DAOhaus 的核心贡献活动，它至今还在正常运行。
+**第四阶段**：大概 6 个月之后，DAO 里面的所有 DAI 已经转化成了$HAUS 代币，这时资本贡献者们也从 DAO 怒退出去，拿到了对应的 $HAUS 份额，项目团队则从 Vault 中索取了他们的份额。然后我们召集了一个[新的 DAO](https://app.daohaus.club/dao/0x64/0xef3d8c4fbb1860fceab16595db7e650cd5ad51c1) 来管理 DAOhaus 的核心贡献活动，它至今还在正常运行。
 
 Our CCO helped us build the new version of the DAOhaus platform, expand our community with more contributors and users and advisors, and laid a strong foundation for future sustainable and values-oriented growth. All without requiring that our capital contributors trust us or relinquish custody of their assets.
 
 我们的 CCO 帮助我们建立了新版 DAOhaus 平台，让更多的贡献者、用户和顾问加入到我们的社区，并为未来以价值为导向的可持续发展奠定了坚实的基础。在整个过程中，我们都没有要求过资本贡献者必须信任我们，也没有要求过他们放弃对自己资产的控制权。
 
 # Conclusion: Benefits of CCOs
-
 # 总结：CCO 的好处
 
 We believe that CCOs are a significant advancement in capital coordination. We look forward to many decentralized communities -- and perhaps other types of projects! -- using CCOs to magnify the positive impact they are able to make on the world.
@@ -503,16 +509,22 @@ To recap, here is a list of the core benefits of the CCO framework:
 
 - Retain full custody of their capital until it is deployed, including the ability to exit if they don’t like the direction things are going.
 - 在自己的资金被部署前始终保留绝对的控制权，如果他们对项目的走向有任何不满，随时可以退出。
+
 - Maintain governance power over how the capital is deployed.
 - 在资本配置的全过程中享有治理权。
+
 - Reduced information asymmetry between project team and capital contributors.
 - 改善了项目团队和资本贡献者之间的信息不对称问题。
+
 - Built-in tranching of capital.
--
+- 资本的内部分配
+
 - Significantly less requirement to trust the project team.
 - 对项目团队的信任压力大大减少。
+
 - Overall lower risk
 - 总体资金风险降低。
+
 - Greater opportunity for less wealthy people to participate.
 - 资金准入门槛降低，普通人也可以参与项目。
 
@@ -522,9 +534,12 @@ To recap, here is a list of the core benefits of the CCO framework:
 
 - More capital available to advance the project’s goals.
 - 可以吸引更多项目资金。
+
 - Folds capital contributors into the community where they can serve as advisors or even fellow builders.
 - 让资本贡献者以顾问或者建设者的角色更好地参与社区建设。
+
 - Less need to rely on larger capital contributors (e.g., venture capital firms) for funding.
 - 不再依赖大型资本贡献者（例如风险投资公司）来提供资金。
+
 - Governance of the project remains decentralized.
 - 项目的治理是去中心化的。
