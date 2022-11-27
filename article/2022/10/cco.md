@@ -168,7 +168,7 @@ Together, the project team and capital contributors will use several web3-native
 
 The Moloch DAO framework was inspired by the original Moloch DAO and has since been used by hundreds of DAOs. It has several core properties that are key to a CCO:
 
-[Moloch DAO 框架](https://coinmarketcap.com/alexandria/glossary/moloch-dao) 框架受到了[最初的 Moloch DAO ](https://molochdao.com/)的启发，后来被[数百个 DAO 使用](https://app.daohaus.club/explore)。它有如下几个核心要，这也是 CCO 的关键所在：
+[Moloch DAO 框架](https://coinmarketcap.com/alexandria/glossary/moloch-dao) 框架受到了[最初的 Moloch DAO ](https://molochdao.com/)的启发，后来被[数百个 DAO 使用](https://app.daohaus.club/explore)。它有如下几个核心要点，这也是 CCO 的关键所在：
 
 - Non-transferable membership in the form of shares. There are two types of shares: “full shares” with full voting rights and “loot shares” with economic rights and indirect governance power.
 - 股份代表项目成员的身份，且不可转让。有两种类型的股份：有完整投票权的「全额股份」；有经济权和间接治理权的「收益股份」。
@@ -285,7 +285,7 @@ We'll walk through each of them to outline the entire lifecycle of a CCO.
 
 我们会按照顺序逐一介绍这四个阶段。
 
-### hase 1: Setup
+### Phase 1: Setup
 
 ### 第一阶段：设置
 
