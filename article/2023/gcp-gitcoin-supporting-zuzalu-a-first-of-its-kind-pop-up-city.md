@@ -2,7 +2,7 @@
 
 翻译：chatGPT、deepl、google translate
 
-**以为内容分别为 chatGPT、deepl、google translate 3 款应用翻译的内容，人工只修改了格式**
+**比对 chatGPT 3.5、deepl、google translate 3 款应用翻译的内容，人工只修改了格式**
 
 ---
 
