@@ -1,6 +1,4 @@
 # pow-er
-pow-er翻译计划 是 [Rebase 社区](https://rebase.network) 发起的一个翻译优质区块链文章的社区，文章来源为 Web3极客日报 上的英文分享文章，内容覆盖区块链技术、DeFi、DAO等领域。
-
 
 # 记录待翻译内容  
 - [ ] [2021-12-30-Why-is-my-rust-build-so-slow](./2021-12-30-Why-is-my-rust-build-so-slow)
